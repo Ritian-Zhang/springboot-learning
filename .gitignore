@@ -1,0 +1,12 @@
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+### ritian template
+*/target
+mvnw
+mvnw.cmd
+/.mvn/
+.mvn
+

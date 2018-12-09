@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>400</title>
+    <style type="text/css">
+        body {
+            margin-left: 200px
+        }
+        p,span {
+            font-size: 25px;
+            font-weight: bold;
+            margin-right: 10px
+        }
+    </style>
+</head>
+<body>
+<h1>这是400异常页面</h1>
+<br>
+<p th:text="|当前时间: ${#dates.format(new java.util.Date().getTime(),'yyyy-MM-dd HH:mm:ss')}|"></p>
+<div class="body">
+   <p>timestamp:<span th:text="${#dates.format(new java.util.Date().getTime(),'yyyy-MM-dd HH:mm:ss')}"></span></p> <br>
+</div>
+</body>
+</html>

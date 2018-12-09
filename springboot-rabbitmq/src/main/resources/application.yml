@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: springboot-rabbitmq-example
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: ritian
+    password: 123456
