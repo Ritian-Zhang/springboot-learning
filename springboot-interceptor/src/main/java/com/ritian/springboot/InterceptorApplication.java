@@ -4,9 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringbootInterceptorApplication {
+public class InterceptorApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringbootInterceptorApplication.class, args);
+        SpringApplication.run(InterceptorApplication.class, args);
     }
 }
