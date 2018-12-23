@@ -21,6 +21,8 @@
         <module>springboot-logback</module>
         <module>springboot-swagger</module>
         <module>springboot-interceptor</module>
+        <module>springboot-mybatis-mapper</module>
+        <module>springboot-mybatis-plus</module>
     </modules>
 
     <parent>

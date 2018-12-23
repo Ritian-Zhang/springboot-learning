@@ -4,6 +4,9 @@ spring:
         url: jdbc:mysql://localhost:3306/boot?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
         username: root
         password: 123456
-mybatis:
-    type-aliases-package: com.ritian.springboot.mybatis.entity
-    mapper-locations: classpath:/mapper/*.xml
+mybatis-plus:
+  mapper-locations: classpath:/mapper/*.xml
+  type-aliases-package: com.ritian.springboot.entity
+logging:
+  level:
+    com.ritian.springboot.mapper: debug
