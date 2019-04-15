@@ -23,6 +23,7 @@
         <module>springboot-interceptor</module>
         <module>springboot-mybatis-mapper</module>
         <module>springboot-mybatis-plus</module>
+        <module>springboot-mongodb</module>
     </modules>
 
     <parent>
