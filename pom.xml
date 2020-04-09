@@ -25,6 +25,7 @@
         <module>springboot-mybatis-plus</module>
         <module>springboot-mongodb</module>
         <module>springboot-kafka</module>
+        <module>springboot-redis</module>
     </modules>
 
     <parent>
