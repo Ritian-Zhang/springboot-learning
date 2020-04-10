@@ -1,4 +1,4 @@
-package com.ritian.springbootredis;
+package com.ritian.redis;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class SpringbootRedisApplicationTests {
+public class BaseTests {
 
     @Test
     public void contextLoads() {
