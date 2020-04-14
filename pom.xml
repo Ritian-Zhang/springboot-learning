@@ -26,6 +26,7 @@
         <module>springboot-mongodb</module>
         <module>springboot-kafka</module>
         <module>springboot-redis</module>
+        <module>springboot-webflux</module>
     </modules>
 
     <parent>
